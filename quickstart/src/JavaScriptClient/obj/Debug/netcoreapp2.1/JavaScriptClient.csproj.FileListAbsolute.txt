@@ -1,0 +1,14 @@
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\bin\Debug\netcoreapp2.1\JavaScriptClient.deps.json
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\bin\Debug\netcoreapp2.1\JavaScriptClient.runtimeconfig.json
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\bin\Debug\netcoreapp2.1\JavaScriptClient.runtimeconfig.dev.json
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\bin\Debug\netcoreapp2.1\JavaScriptClient.dll
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.csprojAssemblyReference.cache
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.csproj.CoreCompileInputs.cache
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.RazorAssemblyInfo.cache
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.RazorAssemblyInfo.cs
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.AssemblyInfoInputs.cache
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.AssemblyInfo.cs
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.RazorTargetAssemblyInfo.cache
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\bin\Debug\netcoreapp2.1\JavaScriptClient.pdb
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.dll
+H:\workspace\Dotnet_Core\IdentityServer4\Example\quickstart\src\JavaScriptClient\obj\Debug\netcoreapp2.1\JavaScriptClient.pdb
