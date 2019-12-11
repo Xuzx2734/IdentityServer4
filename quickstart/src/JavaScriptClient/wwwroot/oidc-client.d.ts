@@ -11,7 +11,6 @@ export interface Logger {
 }
 
 export interface AccessTokenEvents {
-
   load(container: User): void;
 
   unload(): void;
@@ -339,7 +338,6 @@ export class CordovaPopupNavigator {
 export class CordovaIFrameNavigator {
   prepare(params: any): Promise<CordovaPopupWindow>;
 }
-
 
 export interface OidcMetadata {
   issuer: string;

@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace WebApplication1
 {
@@ -32,7 +27,6 @@ namespace WebApplication1
             //    options.MinimumSameSitePolicy = SameSiteMode.None;
             //});
 
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
@@ -41,7 +35,6 @@ namespace WebApplication1
             {
                 options.DefaultScheme = "Cookies";
                 options.DefaultChallengeScheme = "oidc";
-
             })
             .AddCookie("Cookies")
             .AddOpenIdConnect("oidc", options =>
@@ -61,7 +54,6 @@ namespace WebApplication1
                options.Scope.Add("api1");
                options.Scope.Add("offline_access");
                options.ClaimActions.MapJsonKey("website", "website");
-
            });
         }
 
@@ -78,7 +70,6 @@ namespace WebApplication1
             }
 
             app.UseAuthentication();
-
 
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();

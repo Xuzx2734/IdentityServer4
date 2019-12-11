@@ -40,7 +40,6 @@ namespace Client
                 Scope = "api1"
             });
 
-
             if (tokenResponse.IsError)
             {
                 Console.WriteLine(tokenResponse.Error);
